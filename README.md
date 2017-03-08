@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Linked Data Quality Assessment Service
 
 You can use the [editor on GitHub](https://github.com/ldqase/ldq/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
