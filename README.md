@@ -1,37 +1,11 @@
-## Welcome to Linked Data Quality Assessment Service
+## Linked Data Quality Assessment Service
 
-You can use the [editor on GitHub](https://github.com/ldqase/ldq/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Nowadays a substantial number of linked datasets are hosted at the different linked data servers and made available for public access. These linked datasets are accessible through SPARQL query and often referred as public SPARQL endpoints, which are freely available to general public. However, a wide adoption of public SPARQL endpoints is hindered by a number of challenges. Data quality, reliability, and quality of service are among the prominent challenges. Different monitoring services have been proposed to monitor and evaluate the quality of service features of public SPARQL endpoints. However, in order to evaluate data quality of any dataset a deep understanding of the internal structure of the data and domain specific knowledge is required.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In this paper, we propose a domain agnostic and query driven approach to monitor, assess and analyze linked data quality of public SPARQL endpoints. We identified various quality related metrics for linked datasets and designed a linked data model to represent these quality related metrics. We provide a Linked Data Quality (LDQ) dataset, which is generated after conducting various quality related tests over few public SPARQL endpoints. Our main goal in this paper is to provide a platform for monitoring, assessing and analysing linked data quality. Data consumers can execute various analytical queries over LDQ to analyse quality related metrics of public SPARQL endpoints. LDQ will increase data consumer's confidence over Public SPARQL endpoints and will support the wide adoption of these datasets in various linked data applications.
 
-### Markdown
+### Architecture
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![architecture](arc.png)
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ldqase/ldq/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
